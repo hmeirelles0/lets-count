@@ -15,11 +15,11 @@ function contar () {
         for (var start = s2; start <= e2; start += p2) {
             res.innerHTML += `${start} →`
         }
-        res.innerHTML += 'Chegou!'
+        res.innerHTML += '<strong><ins>Chegou!</ins></strong> &#x1F3C1;''
     } else if (s2 > e2) {
         for (var altstart = s2; altstart >= e2 ; altstart -= p2) {
             res.innerHTML += `${altstart} →`
         }
-        res.innerHTML += 'Terminou!'
+        res.innerHTML += '<strong><ins>Terminou!</ins></strong> &#x1F3C1;''
     }
 }
